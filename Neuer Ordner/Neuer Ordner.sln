@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "media-server", "media-server", "{9712398C-294A-4CEA-B42A-A9E5930A1796}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MediaApi", "MediaApi", "{F1172C74-3456-4FB7-BA29-B6525A2B19DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaApi", "media-server\MediaApi\MediaApi\MediaApi.csproj", "{E19B5FDA-6300-42A7-B314-78F389D89B37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E19B5FDA-6300-42A7-B314-78F389D89B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E19B5FDA-6300-42A7-B314-78F389D89B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E19B5FDA-6300-42A7-B314-78F389D89B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E19B5FDA-6300-42A7-B314-78F389D89B37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1172C74-3456-4FB7-BA29-B6525A2B19DD} = {9712398C-294A-4CEA-B42A-A9E5930A1796}
+		{E19B5FDA-6300-42A7-B314-78F389D89B37} = {F1172C74-3456-4FB7-BA29-B6525A2B19DD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CCF821F-A100-4C1F-AA56-CA4165E70390}
+	EndGlobalSection
+EndGlobal
